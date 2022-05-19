@@ -6,7 +6,7 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-wordpress',
     options: {
-      "url": "https://wp.c3sare.pl/index.php?graphql"
+      "url": "www.wp.c3sare.pl/graphql"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
